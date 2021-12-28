@@ -1,0 +1,20 @@
+{
+  "name": "anti-baidu-adv",
+  "version": "0.0.0",
+  "description": "百度广告反制",
+  "author": "WingsJ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/wings-j/anti-baidu-adv.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
