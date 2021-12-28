@@ -8,11 +8,10 @@
     "type": "git",
     "url": "https://gitee.com/wings-j/anti-baidu-adv.git"
   },
-  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsc -w",
-    "build": "tsc"
+    "build": "node tool/build"
   },
   "devDependencies": {
     "typescript": "^4.5.4"

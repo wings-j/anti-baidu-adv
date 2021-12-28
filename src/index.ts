@@ -2,4 +2,6 @@
  * index
  */
 
-export { default as Core } from './core'
+import Core from './core'
+
+export default Core
