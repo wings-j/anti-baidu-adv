@@ -1,15 +1,21 @@
 {
   "include": ["src"],
+  "exclude": ["node_modules"],
   "compilerOptions": {
-    "target": "es6",
-    "module": "amd",
+    "target": "ESNext",
+    "module": "ESNext",
     "lib": ["esnext", "dom"],
-    "outFile": "./dist/index.js",
+    "declaration": true,
+    "rootDir": "src",
+    "outDir": "dist",
     "strict": true,
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
     "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "importHelpers": true
   }
 }
